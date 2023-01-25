@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fancy Navbar</title>
+
+    <!-- ========== Start CUSTOM CSS ========== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ========== End CUSTOM CSS ========== -->
+
+    <!-- ========== Start ION ICONS ========== -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <!-- ========== End ION ICONS ========== -->
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo"
+        >Sacred Heart <br />
+        High School</a
+      >
+
+      <ion-icon name="menu" class="header__toggle" id="nav-toggle"></ion-icon>
+
+      <nav class="nav" id="nav-menu">
+        <div class="nav__content bd-grid">
+          <ion-icon name="close" class="nav__close" id="nav-close"></ion-icon>
+
+          <div class="nav__profile">
+            <div class="nav__img">
+              <img src="logo.png" alt="Sacred Heart Logo" />
+            </div>
+
+            <div>
+              <a href="#" class="nav__name">Sacred Heart High School</a>
+              <span class="nav__tagline">Love Conquers All</span>
+            </div>
+          </div>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link link--active">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Academics</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Resources</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav__social">
+            <a href="#!" class="nav__social-icon"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+
+            <a href="#!" class="nav__social-icon"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+
+            <a href="#!" class="nav__social-icon"
+              ><ion-icon name="logo-whatsapp"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ========== Start Custom JS ========== -->
+    <script src="main.js"></script>
+    <!-- ========== End Custom JS ========== -->
+  </body>
+</html>
