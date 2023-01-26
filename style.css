@@ -1,5 +1,5 @@
 /***** Import Google Fonts *****/
-/* Import Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 /***** End Import Google Fonts *****/
 
 /* ============================================== */
@@ -17,7 +17,7 @@
   /***** End COLOURS *****/
 
   /***** FONTS AND TYPOGRAPHY *****/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Inter', sans-serif;
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
   /***** End FONTS AND TYPOGRAPHY *****/
