@@ -92,10 +92,11 @@ img {
   align-items: center;
 }
 
-.header__logo {
+/* .header__logo {
   color: var(--first-color);
+  color: green;
   font-weight: 600;
-}
+} */
 
 .header__toggle {
   font-size: 1.5rem;
@@ -118,7 +119,15 @@ img {
     z-index: var(--z-fixed);
     transition: all 0.3s;
   }
+  .header__logo {
+    display: flex;
+    align-items: center;
+  }
 }
+
+/***** NAV LOGO DESIGN *****/
+
+/***** End NAV LOGO DESIGN *****/
 
 .nav__content {
   height: 100%;
@@ -155,7 +164,7 @@ img {
 .nav__name {
   display: block;
   color: var(--first-color);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav__tagline {
@@ -217,6 +226,7 @@ img {
   }
 
   .header__logo,
+  .nav__logo,
   .header__toggle {
     display: none;
   }
@@ -284,3 +294,31 @@ img {
   }
 }
 /***** End MEDIA QUERIES *****/
+
+/* ================================================ */
+
+/***** NAV LOGO DESIGN *****/
+
+.header__logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.25rem;
+  width: 36px;
+  height: 36px;
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.header__logo-img img {
+  width: 30px;
+}
+
+.header__logo-name {
+  color: var(--first-color);
+  font-weight: 600;
+}
+/***** End NAV LOGO DESIGN *****/
